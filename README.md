@@ -1,52 +1,55 @@
-# FoodOrderingMenu
-Repo for OOP Mini Project Food Ordering Menu
+# Food Ordering System
 
-This repository contains the source code for a terminal-based food ordering menu system implemented in Java.
+This Java-based command-line application simulates a food ordering system where customers can view a menu, place orders, and calculate totals.
 
 ## Features
-- User-friendly interface for ordering food items
-- Menu display with options to view different categories of food items
-- Ability to add items to a cart and place an order
-- Calculation of total order cost
-- Validation of user inputs
 
-## Getting Started
-To run the food ordering menu system, follow these steps:
+- View menu items (food and drinks) loaded from `menu.txt`.
+- Add, delete, and update items in the order.
+- Display the current order and calculate the total amount.
 
-1. Clone the repository:
-    ```shell
-    git clone https://github.com/your-username/FoodOrderingMenu.git
+## Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone <repository-url>
+    cd food-ordering-system
     ```
 
-2. Navigate to the project directory:
-    ```shell
-    cd FoodOrderingMenu
-    ```
+2. **Compile and run the application:**
 
-3. Compile the Java source code:
-    ```shell
-    javac Main.java
-    ```
+    - Follow the on-screen prompts to interact with the food ordering system.
+    - Choose menu options to view the menu, manage your order, and confirm your order.
 
-4. Run the program:
-    ```shell
-    java Main
-    ```
+## Project Structure
 
-## Usage
-- Upon running the program, you will be presented with the main menu.
-- Use the provided options to navigate through the menu and select food items.
-- Add items to your cart and proceed to place an order.
-- Follow the prompts to enter your personal details and complete the order.
+```
+food-ordering-system/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   ├── FoodOrderingSystem.java
+│       │   ├── AbstractMenuItem.java
+│       │   ├── FoodItem.java
+│       │   ├── DrinkItem.java
+│       │   ├── OrderManagement.java
+│       │   ├── Order.java
+│       │   ├── Customer.java
+│       │   └── FileManager.java
+│       └── resources/
+│           └── menu.txt
+└── README.md
+
+## Tools Used
+
+- GitHub: Version control and collaboration.
+- Visual Studio Code (VS Code): Code editor with Java support.
 
 ## Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request.
+Contributions are welcome! Fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
