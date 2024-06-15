@@ -40,6 +40,7 @@ food-ordering-system/
 │       └── resources/
 │           └── menu.txt
 └── README.md
+```
 
 ## Tools Used
 
