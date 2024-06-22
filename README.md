@@ -13,7 +13,7 @@ This Java-based command-line application simulates a food ordering system where 
 1. **Clone the repository:**
 
     ```bash
-    git clone <https://github.com/SatireRice/FoodOrderingMenu.git>
+    git clone <https://github.com/rithbennet/FoodOrderingMenu.git>
     cd food-ordering-system
     ```
 
