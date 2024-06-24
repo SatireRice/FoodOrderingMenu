@@ -51,6 +51,8 @@ food-ordering-system/
 
 Contributions are welcome! Fork the repository and submit a pull request.
 
+Fathiya is contributing!
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
